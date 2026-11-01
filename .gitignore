@@ -1,0 +1,9 @@
+output/
+.runtime/
+__pycache__/
+*.pyc
+*.blend1
+*.blend2
+*.crash.txt
+.DS_Store
+Thumbs.db

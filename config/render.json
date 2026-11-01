@@ -1,0 +1,23 @@
+{
+  "project": "project/casa_tres_patis_render_24fps.blend",
+  "blender_version": "5.2.3",
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 4800,
+  "duration_seconds": 200,
+  "resolution": [1920, 1080],
+  "samples": 512,
+  "adaptive_threshold": 0.0075,
+  "adaptive_minimum": 32,
+  "denoiser": "OPENIMAGEDENOISE",
+  "bounces": {"total": 12, "diffuse": 4, "glossy": 8, "transmission": 12, "transparent": 16},
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": -1.0,
+  "motion_blur_shutter": 0.5,
+  "png_depth": "16",
+  "video": "Casa_Tres_Patis_full_1080p24_clean.mp4",
+  "monitor_interval_minutes": 30,
+  "subtitles": "external_only",
+  "source_24fps_sha256": "0aef26c41b200dfa31517552a46cae9e6253f7a7d43b381435842b273966a88c"
+}

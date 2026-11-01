@@ -1,0 +1,73 @@
+{
+  "description": "Portable clean master; 24fps 200 seconds; original confirmed HQ source unchanged",
+  "files": {
+    ".gitattributes": {
+      "sha256": "141fc54d082274a5f126637dd3a2bf0121823f7ab834cb712f1d2a665991f55c",
+      "bytes": 45
+    },
+    ".gitignore": {
+      "sha256": "39af99f7f1031000ef982060110d7466ec49b7ba6a2aabb06f567492810ce3af",
+      "bytes": 87
+    },
+    "AGENTS.md": {
+      "sha256": "229e03403744ccf9769cc25f95df73d74b5b0cfaae910d2f5c41c1b2f1e394cb",
+      "bytes": 1154
+    },
+    "captions/外部字幕_200秒.srt": {
+      "sha256": "b6c5f51146c52653b33acafd64cdea2cd1e79b9cb5090e2ec6f3f2567098bd3f",
+      "bytes": 1398
+    },
+    "config/render.json": {
+      "sha256": "1093e20c9f4d7d78c3c645cdf72ee9622b0e581596f989db304bcace33ca486f",
+      "bytes": 757
+    },
+    "docs/参考出处.md": {
+      "sha256": "b0db02e4f43ef72c2fc10a8232ff72fb646c64be52fafa9ba2b78430d47fa900",
+      "bytes": 7747
+    },
+    "docs/画质基准.md": {
+      "sha256": "336bc16c1642bab7501757c4374427aae152ecf8f6cc60ae7912c991fcfa5338",
+      "bytes": 1244
+    },
+    "docs/设计理念说明.md": {
+      "sha256": "21ca74d3373ae01b54f253b7d6c17985a5d838ad5e6c2e8de4ba113d28199fd2",
+      "bytes": 25883
+    },
+    "docs/运镜与外部字幕时间轴.md": {
+      "sha256": "db6d630cd0d95b36ddaadb1033ba63ce39f141c0f9e55dfb76ec97b3a66f9ac8",
+      "bytes": 4155
+    },
+    "NOTICE.md": {
+      "sha256": "303beec2bc066da96488b3af294b71fd29d1ee55c5952f0b21390e51e1f09770",
+      "bytes": 759
+    },
+    "project/casa_tres_patis_render_24fps.blend": {
+      "sha256": "0aef26c41b200dfa31517552a46cae9e6253f7a7d43b381435842b273966a88c",
+      "bytes": 41565103
+    },
+    "README.md": {
+      "sha256": "1106d8cb8ede07414250621c17db9cddba08789538221a7cd84b5abebc46eafb",
+      "bytes": 1643
+    },
+    "reference/已确认画质_1080p24_前10秒.mp4": {
+      "sha256": "6dec492b7b803da1a813405b736a8354e73046d18b981f291fc79a20fc83c328",
+      "bytes": 12139704
+    },
+    "scripts/render.py": {
+      "sha256": "d3196600370ed41565aaad26898699bc4c585f4dc9cc95cb921fc7aec8fa624b",
+      "bytes": 13430
+    },
+    "scripts/start_render.py": {
+      "sha256": "e80590dc15fe148df21df2254984a17865e1214bb2ae448f9cf7735b599a39a3",
+      "bytes": 5729
+    },
+    "validation/package_validation.json": {
+      "sha256": "b88142fef6eaec5449754ffeca0d7535aa44080d932622e0d8fff14abc1a9db0",
+      "bytes": 3889
+    },
+    "渲染交接文档.md": {
+      "sha256": "f5980e1382f1825f040ffde805dc95d60152f8e3b112698ae154a3cefe281304",
+      "bytes": 14525
+    }
+  }
+}
