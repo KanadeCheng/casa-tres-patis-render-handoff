@@ -10,44 +10,32 @@
       "bytes": 87
     },
     "AGENTS.md": {
-      "sha256": "229e03403744ccf9769cc25f95df73d74b5b0cfaae910d2f5c41c1b2f1e394cb",
-      "bytes": 1154
-    },
-    "captions/外部字幕_200秒.srt": {
-      "sha256": "b6c5f51146c52653b33acafd64cdea2cd1e79b9cb5090e2ec6f3f2567098bd3f",
-      "bytes": 1398
+      "sha256": "7d70895a5ee86250c8f0ffa2c80697cde9a08063c156bb6010da53d1a7749be2",
+      "bytes": 1366
     },
     "config/render.json": {
       "sha256": "1093e20c9f4d7d78c3c645cdf72ee9622b0e581596f989db304bcace33ca486f",
       "bytes": 757
     },
-    "docs/参考出处.md": {
-      "sha256": "b0db02e4f43ef72c2fc10a8232ff72fb646c64be52fafa9ba2b78430d47fa900",
-      "bytes": 7747
+    "docs/渲染帧定位.md": {
+      "sha256": "9a225c1450ef9953f22d6143c0ff349a3ffdab50281ac0b6b18a8a298cde8151",
+      "bytes": 903
     },
     "docs/画质基准.md": {
       "sha256": "336bc16c1642bab7501757c4374427aae152ecf8f6cc60ae7912c991fcfa5338",
       "bytes": 1244
     },
-    "docs/设计理念说明.md": {
-      "sha256": "21ca74d3373ae01b54f253b7d6c17985a5d838ad5e6c2e8de4ba113d28199fd2",
-      "bytes": 25883
-    },
-    "docs/运镜与外部字幕时间轴.md": {
-      "sha256": "db6d630cd0d95b36ddaadb1033ba63ce39f141c0f9e55dfb76ec97b3a66f9ac8",
-      "bytes": 4155
-    },
     "NOTICE.md": {
-      "sha256": "303beec2bc066da96488b3af294b71fd29d1ee55c5952f0b21390e51e1f09770",
-      "bytes": 759
+      "sha256": "4150d8ba4d8e5cd03a5e96442ccb2ff51f4491b2edca4ed75f23843176e2338e",
+      "bytes": 695
     },
     "project/casa_tres_patis_render_24fps.blend": {
       "sha256": "0aef26c41b200dfa31517552a46cae9e6253f7a7d43b381435842b273966a88c",
       "bytes": 41565103
     },
     "README.md": {
-      "sha256": "1106d8cb8ede07414250621c17db9cddba08789538221a7cd84b5abebc46eafb",
-      "bytes": 1643
+      "sha256": "091d08e5167036d086c082cf0d7af3c7668df4f12e6d2a0b0cccb45645f3952f",
+      "bytes": 1673
     },
     "reference/已确认画质_1080p24_前10秒.mp4": {
       "sha256": "6dec492b7b803da1a813405b736a8354e73046d18b981f291fc79a20fc83c328",
@@ -66,8 +54,8 @@
       "bytes": 3889
     },
     "渲染交接文档.md": {
-      "sha256": "52713d840405d799fa56a036739c1bc088b439a8d4e48fb65101a58bbc512a68",
-      "bytes": 14906
+      "sha256": "49c519572592ee0c11d51099d0174f38646251610457316484fb11b33657e243",
+      "bytes": 15647
     }
   }
 }

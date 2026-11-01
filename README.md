@@ -9,13 +9,12 @@
 - `scripts/start_render.py`：检测/安装Blender、后台启动、续渲及编码入口。
 - `scripts/render.py`：原生Blender环境检查、预检、实际渲染、编码和验证。
 - `reference/`：此前已确认的10秒1080p24无字幕样片。
-- `docs/`：设计理念、来源、镜头时间轴和画质基准。
-- `captions/`：仅供后期使用的200秒SRT；**不烧录到本次动画**。
+- `docs/`：仅画质基准与技术渲染帧定位。
 - `manifest.json`：工程与必要文件的SHA-256；`validation/`为本机交接核验记录。
 
 本包不需要CamWeave、Blender MCP、字体、外部模型/纹理或模拟缓存。位置、朝向、季相与水纹均通过原生动画/驱动实现。渲染结果和临时安装在Git忽略目录内保留。
 
-作品和参考归属见[NOTICE.md](NOTICE.md)，不将重建模型写成原作的精确复原。
+任务范围仅为环境准备、渲染、续渲、编码和技术核验；不执行设计理念、模型合理性、运镜叙事或字幕内容审查。作品署名见[NOTICE.md](NOTICE.md)，不产生额外审查任务。
 
 本机打包核验已通过：同源工程、无外链、24fps/4800帧、原生相机和季节/淡变数据、单帧Cycles全质量试渲。见[package_validation.json](validation/package_validation.json)。目标电脑仍必须重新探测环境和预检。
 
