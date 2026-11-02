@@ -10,12 +10,16 @@
       "bytes": 87
     },
     "AGENTS.md": {
-      "sha256": "7d70895a5ee86250c8f0ffa2c80697cde9a08063c156bb6010da53d1a7749be2",
-      "bytes": 1366
+      "sha256": "2e799dd8d7ea619bf384a06554484bd7d4d217f4dda203a2acbd27352074ced4",
+      "bytes": 1549
     },
     "config/render.json": {
       "sha256": "1093e20c9f4d7d78c3c645cdf72ee9622b0e581596f989db304bcace33ca486f",
       "bytes": 757
+    },
+    "docs/两机分段渲染.md": {
+      "sha256": "6912fbcd52be77e041ee4f1dd17787be2c0300118bdf4492b531190fc3fb0221",
+      "bytes": 3161
     },
     "docs/渲染帧定位.md": {
       "sha256": "9a225c1450ef9953f22d6143c0ff349a3ffdab50281ac0b6b18a8a298cde8151",
@@ -34,28 +38,36 @@
       "bytes": 41565103
     },
     "README.md": {
-      "sha256": "091d08e5167036d086c082cf0d7af3c7668df4f12e6d2a0b0cccb45645f3952f",
-      "bytes": 1673
+      "sha256": "225c13e275b607172b9cfe4153024f99bdbb0aeb2ebd5d4cc215e1d4a08474d9",
+      "bytes": 2148
     },
     "reference/已确认画质_1080p24_前10秒.mp4": {
       "sha256": "6dec492b7b803da1a813405b736a8354e73046d18b981f291fc79a20fc83c328",
       "bytes": 12139704
     },
+    "scripts/merge_parts.py": {
+      "sha256": "f6fbf1a377aa289e4b8e8cb00ab3875b7636b20310386754bec5a73288c5cbcf",
+      "bytes": 3353
+    },
     "scripts/render.py": {
       "sha256": "d3196600370ed41565aaad26898699bc4c585f4dc9cc95cb921fc7aec8fa624b",
       "bytes": 13430
     },
+    "scripts/render_part.py": {
+      "sha256": "9d3da79e603782b8e4ee9d3d5b5e21bc78072e804d6bf3d7f572aaafd657475a",
+      "bytes": 4974
+    },
     "scripts/start_render.py": {
-      "sha256": "e80590dc15fe148df21df2254984a17865e1214bb2ae448f9cf7735b599a39a3",
-      "bytes": 5729
+      "sha256": "c0627306bba44faf732ea057caf2808078f5735170de18d7232d4ae461d50417",
+      "bytes": 6168
     },
     "validation/package_validation.json": {
       "sha256": "b88142fef6eaec5449754ffeca0d7535aa44080d932622e0d8fff14abc1a9db0",
       "bytes": 3889
     },
     "渲染交接文档.md": {
-      "sha256": "49c519572592ee0c11d51099d0174f38646251610457316484fb11b33657e243",
-      "bytes": 15647
+      "sha256": "d9d2da02d93dd04d1a33063f4ccef04275579c6b8a7bb75041d8aa12e4500314",
+      "bytes": 16966
     }
   }
 }

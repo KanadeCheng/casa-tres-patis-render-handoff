@@ -59,7 +59,8 @@ def download_install():
  exe='blender.exe' if system=='Windows' else 'blender'
  return next(dest.rglob(exe))
 def main():
- p=argparse.ArgumentParser();p.add_argument('--mode',choices=['inspect','preflight','render','encode','verify'],default='render');p.add_argument('--blender');p.add_argument('--output',type=pathlib.Path);p.add_argument('--foreground',action='store_true');p.add_argument('--force-cpu',action='store_true');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--mode',choices=['inspect','preflight','render','part','encode','verify'],default='render');p.add_argument('--blender');p.add_argument('--output',type=pathlib.Path);p.add_argument('--foreground',action='store_true');p.add_argument('--force-cpu',action='store_true');p.add_argument('--start-frame',type=int);p.add_argument('--end-frame',type=int);a=p.parse_args()
+ if a.mode=='part' and (a.start_frame is None or a.end_frame is None or not 1<=a.start_frame<=a.end_frame<=4800):p.error('part requires --start-frame and --end-frame inside 1-4800')
  binary=pathlib.Path(a.blender) if a.blender else next((b for b in candidates() if b.is_file() and version(b)==C['blender_version']),None)
  if binary and version(binary)!=C['blender_version']:raise RuntimeError('Explicit Blender must be '+C['blender_version'])
  if not binary:binary=download_install()
@@ -67,7 +68,10 @@ def main():
  settings=RT/'local_settings.json';previous=json.loads(settings.read_text(encoding='utf8')) if settings.exists() else {}
  output=(a.output or pathlib.Path(previous.get('output',str(R/'output')))).resolve();output.mkdir(parents=True,exist_ok=True)
  settings.write_text(json.dumps({'blender':str(binary),'output':str(output)},indent=2),encoding='utf8')
- command=[str(binary),'--background','--factory-startup','--enable-autoexec','--python-exit-code','1','--python',str(R/'scripts/render.py'),'--','--mode',a.mode,'--output',str(output)]
+ worker='render_part.py' if a.mode=='part' else 'render.py'
+ command=[str(binary),'--background','--factory-startup','--enable-autoexec','--python-exit-code','1','--python',str(R/'scripts'/worker),'--','--output',str(output)]
+ if a.mode=='part':command+=['--start-frame',str(a.start_frame),'--end-frame',str(a.end_frame)]
+ else:command+=['--mode',a.mode]
  if a.force_cpu:command.append('--force-cpu')
  if a.foreground:return subprocess.call(command)
  stdout=open(output/(a.mode+'.log'),'ab');stderr=open(output/(a.mode+'_error.log'),'ab')
